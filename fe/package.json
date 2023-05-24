@@ -9,16 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.5.2",
+    "@next/font": "^13.4.1",
     "@types/node": "18.16.3",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.2",
+    "framer-motion": "^10.12.6",
     "gsap": "^3.11.5",
-    "next": "13.3.2",
+    "next": "^13.4.4-canary.0",
     "react": "18.2.0",
+    "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "react-icons": "^4.8.0",
+    "react-scroll": "^1.8.9",
+    "swiper": "^9.2.4",
+    "typescript": "5.0.4",
+    "zustand": "^4.3.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",

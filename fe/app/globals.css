@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.scroll-none{
+    overflow: scroll; /* Add the ability to scroll */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  
+  }
+  
+  /* Hide scrollbar */
+  .scroll-none::-webkit-scrollbar {
+      display: none;
+  }

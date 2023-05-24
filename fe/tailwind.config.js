@@ -9,12 +9,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    borderRadius : {
-      '20px' : '1.25rem'
-    },
     extend: {
-    
       colors : {
+        'default-black' : '#121229',
+        'intro-home-btn' : '#7371ff',
+        'intro-home-btn-hovered' : '#8b89f097',
         'home-page' : '#f7f7fc',
         'filter-border-color' : '#dcddeb', 
         'purple' : '#4a3aff',
@@ -24,6 +23,20 @@ module.exports = {
         'btn-bg-grey' : '#f2f1ff',
         'posts-description' : '#6e7191',
         'border' : '#e5e5ef'
+      },
+      keyframes : {
+        'yInfinite' : {
+          '0%, 100%' : {transform : 'translateY(8px)'},
+          '50%' : {transform : 'translateY(0)'}
+        },
+        'yInfinite-1' : {
+          '0%, 100%' : {transform : 'translateY(-8px)'},
+          '50%' : {transform : 'translateY(0)'}
+        }
+      },
+      animation : {
+        'yInfinite' : 'yInfinite 1.5s ease infinite ',
+        'yInfinite-1' : 'yInfinite-1 1.5s ease infinite'
       }
     },
   },

@@ -1,0 +1,143 @@
+export const posts : any = [
+  // payment
+    {
+      whoPosted : 'Chiaki',
+      title : 'Chiaki Koga',
+      description : `Chiaki Koga was born in United States on January 17, 2002. She's 21 years old. Her favorite food is Mukbang. She enjoys baking. She is from the Japan.`,
+      image : 'https://i.pinimg.com/736x/a3/c8/f9/a3c8f9075dff434b79288164cf6b1ef5.jpg',
+      id : '1',
+      aboutUs : `Take your carpentry business to the next level with Carpenters X 🪵🏡, the perfect carpenter Webflow Template for wood contractors and interior designers. Put your best foot forward with a professional and premium website design. Carpenters X has all the tools to get your business's website up and running quickly - a total of 15 pages, including a beautiful, modern, and clean homepage design.`,
+      whatWeWannaDo : `Unique & Premium Design: Carpenters X Constructor Webflow Template was designed to include all pages needed to have a world-class website for your carpentry. Its design was inspired on many websites from firms that are leaders in the carpentry industry, so it ensures to have everything you will need to impress your clients and start getting more business inquiries.`,
+      carouselImg : ['https://i.pinimg.com/564x/bb/26/02/bb26023d477f1c4dc275c1e65f308760.jpg', 'https://i.pinimg.com/474x/e2/0b/48/e20b48a5767192a9c6b1e46c945ac4ae.jpg', 'https://i.pinimg.com/474x/72/18/4d/72184d64f78341437259aa0469d75bde.jpg'],
+      type : 'payment',
+      category1 : 'Jewelry', 
+      quote : 'We have a lot of work to do, and your generous donation helps us get that important work done.',
+      unit_amount : 69,
+      category : 'uvs',
+      checked : false,
+      goals : [{title : 'Increase Income'}, {title : 'Make Chiaki happy'}, {title : 'Increase win rates by 69% in Gl1  '}, {title : 'Cook Chiaki Favorite Breakfast'}]
+    },
+    // Event
+    // {
+    //   whoPosted : 'Aimyon',
+    //   title : 'Aika Tsuda',
+    //   description : `Chiaki Koga was born in United States on January 17, 2002. She's 21 years old. Her favorite food is Mukbang. She enjoys baking. She is from the Japan.`,
+    //   image : 'https://i.pinimg.com/474x/ee/58/2f/ee582f64a7e8f5b24d7f4311e6297600.jpg',
+    //   id : '2',
+    //   aboutUs : `Take your carpentry business to the next level with Carpenters X 🪵🏡, the perfect carpenter Webflow Template for wood contractors and interior designers. Put your best foot forward with a professional and premium website design. Carpenters X has all the tools to get your business's website up and running quickly - a total of 15 pages, including a beautiful, modern, and clean homepage design.`,
+    //   whatWeWannaDo : `Unique & Premium Design: Carpenters X Constructor Webflow Template was designed to include all pages needed to have a world-class website for your carpentry. Its design was inspired on many websites from firms that are leaders in the carpentry industry, so it ensures to have everything you will need to impress your clients and start getting more business inquiries.`,
+    //   carouselImg : ['https://i.pinimg.com/564x/8d/5d/b0/8d5db028a0c8c34f8fd4f548f68c1a7e.jpg', 'https://i.pinimg.com/564x/cb/c2/80/cbc28000325c8f1b11d7a14453f15a87.jpg', 'https://i.pinimg.com/564x/32/33/22/3233221ac5ef9d5d54b299fd0c1af54e.jpg'],
+    //   type : 'event',
+    //   members : 15,
+    //   limit : 20,
+    //   locationSpecific : 'Bayanzurkh, Ulaanbaatar',
+    //   duration : '4h',
+    //   goals :  [{title : 'Increase Income'}, {title : 'Make Chiaki happy'}, {title : 'Increase win rates by 69% in Gl1  '}, {title : 'Cook Chiaki Favorite Breakfast'}, {title : 'Meet Chiaki to eat Burger'}],
+    //   category : 'ulaanbaatar',
+    //   checked : false
+    // },  
+
+    // Donation
+    {
+      whoPosted : 'Aika',
+      title : 'Kyo Koyama',
+      description : `Chiaki Koga was born in United States on January 17, 2002. She's 21 years old. Her favorite food is Mukbang. She enjoys baking. She is from the Japan.`,
+      image : 'https://i.pinimg.com/474x/7a/a6/f0/7aa6f0c24f608e15f27a107e5423c296.jpg',
+      id : '3',
+      aboutUs : `Take your carpentry business to the next level with Carpenters X 🪵🏡, the perfect carpenter Webflow Template for wood contractors and interior designers. Put your best foot forward with a professional and premium website design. Carpenters X has all the tools to get your business's website up and running quickly - a total of 15 pages, including a beautiful, modern, and clean homepage design.`,
+      whatWeWannaDo : `Unique & Premium Design: Carpenters X Constructor Webflow Template was designed to include all pages needed to have a world-class website for your carpentry. Its design was inspired on many websites from firms that are leaders in the carpentry industry, so it ensures to have everything you will need to impress your clients and start getting more business inquiries.`,
+      carouselImg : ['https://i.pinimg.com/564x/28/9b/02/289b02b5ee01e459bf64743f559f5f9b.jpg', 'https://i.pinimg.com/474x/33/c6/50/33c650002cd5c16a7034c908d78ed007.jpg', 'https://i.pinimg.com/474x/28/db/b1/28dbb1a4e68f5d0d68303b86d82e7f22.jpg'],
+      goals :  [{title : 'Increase Income'}, {title : 'Make Chiaki happy'}, {title : 'Increase win rates by 69% in Gl1  '}, {title : 'Cook Chiaki Favorite Breakfast'}, {title : 'Meet Chiaki to eat Burger'}],
+      donatedPeople : 21,
+      locationSpecific : 'Bayanzurkh, Ulaanbaatar',
+      type : 'donation',
+      quote : 'We have a lot of work to do, and your generous donation helps us get that important work done.',
+      goal : 10000,
+      reached : 7000,
+      category : 'umnugovi',
+      checked : false
+    },
+    {
+      whoPosted : 'Aika',
+      quote : 'We have a lot of work to do, and your generous donation helps us get that important work done.',
+      title : 'Yuri Sato',
+      description : `Chiaki Koga was born in United States on January 17, 2002. She's 21 years old. Her favorite food is Mukbang. She enjoys baking. She is from the Japan.`,
+      image : 'https://i.pinimg.com/474x/87/2f/96/872f961a67945ddeec1105137724b10b.jpg',
+      id : '4',
+      aboutUs : `Take your carpentry business to the next level with Carpenters X 🪵🏡, the perfect carpenter Webflow Template for wood contractors and interior designers. Put your best foot forward with a professional and premium website design. Carpenters X has all the tools to get your business's website up and running quickly - a total of 15 pages, including a beautiful, modern, and clean homepage design.`,
+      whatWeWannaDo : `Unique & Premium Design: Carpenters X Constructor Webflow Template was designed to include all pages needed to have a world-class website for your carpentry. Its design was inspired on many websites from firms that are leaders in the carpentry industry, so it ensures to have everything you will need to impress your clients and start getting more business inquiries.`,
+      carouselImg : ['https://i.pinimg.com/474x/28/db/b1/28dbb1a4e68f5d0d68303b86d82e7f22.jpg','https://i.pinimg.com/564x/28/9b/02/289b02b5ee01e459bf64743f559f5f9b.jpg',  'https://i.pinimg.com/474x/28/db/b1/28dbb1a4e68f5d0d68303b86d82e7f22.jpg'],
+      goals :  [{title : 'Increase Income'}, {title : 'Make Chiaki happy'}, {title : 'Increase win rates by 69% in Gl1  '}, {title : 'Cook Chiaki Favorite Breakfast'}, {title : 'Meet Chiaki to eat Burger'}],
+      donatedPeople : 21,
+      locationSpecific : 'Bayanzurkh, Ulaanbaatar',
+      type : 'donation',
+      goal : 10000,
+      reached : 5000,
+      category : 'umnugovi',
+      checked : false
+    },
+
+    {
+      whoPosted : 'Aimyon',
+      title : 'Honoka Tanioka',
+      description : `Chiaki Koga was born in United States on January 17, 2002. She's 21 years old. Her favorite food is Mukbang. She enjoys baking. She is from the Japan.`,
+      image : '  https://i.pinimg.com/564x/3f/8a/e3/3f8ae3de804b53c321d42f033885c62a.jpg',
+      id : '2',
+      aboutUs : `Take your carpentry business to the next level with Carpenters X 🪵🏡, the perfect carpenter Webflow Template for wood contractors and interior designers. Put your best foot forward with a professional and premium website design. Carpenters X has all the tools to get your business's website up and running quickly - a total of 15 pages, including a beautiful, modern, and clean homepage design.`,
+      whatWeWannaDo : `Unique & Premium Design: Carpenters X Constructor Webflow Template was designed to include all pages needed to have a world-class website for your carpentry. Its design was inspired on many websites from firms that are leaders in the carpentry industry, so it ensures to have everything you will need to impress your clients and start getting more business inquiries.`,
+      carouselImg : ['https://i.pinimg.com/564x/8d/5d/b0/8d5db028a0c8c34f8fd4f548f68c1a7e.jpg', 'https://i.pinimg.com/564x/cb/c2/80/cbc28000325c8f1b11d7a14453f15a87.jpg', 'https://i.pinimg.com/564x/32/33/22/3233221ac5ef9d5d54b299fd0c1af54e.jpg'],
+      type : 'event',
+      members : 15,
+      limit : 20,
+      locationSpecific : 'Bayanzurkh, Ulaanbaatar',
+      quote :  'We have a lot of work to do, and your generous donation helps us get that important work done.',
+      isForm : true,
+      duration : '4h',
+      goals :  [{title : 'Increase Income'}, {title : 'Make Chiaki happy'}, {title : 'Increase win rates by 69% in Gl1  '}, {title : 'Cook Chiaki Favorite Breakfast'}, {title : 'Meet Chiaki to eat Burger'}],
+      category : 'ulaanbaatar',
+      checked : false
+    },  
+    {
+      whoPosted : 'Takuho',
+      title : 'Football',
+      description : `Chiaki Koga was born in United States on January 17, 2002. She's 21 years old. Her favorite food is Mukbang. She enjoys baking. She is from the Japan.`,
+      image : '  https://i.pinimg.com/564x/52/12/16/5212164b9bb7cb6365a1e3afd2f7db59.jpg',
+      id : '5',
+      aboutUs : `Take your carpentry business to the next level with Carpenters X 🪵🏡, the perfect carpenter Webflow Template for wood contractors and interior designers. Put your best foot forward with a professional and premium website design. Carpenters X has all the tools to get your business's website up and running quickly - a total of 15 pages, including a beautiful, modern, and clean homepage design.`,
+      whatWeWannaDo : `Unique & Premium Design: Carpenters X Constructor Webflow Template was designed to include all pages needed to have a world-class website for your carpentry. Its design was inspired on many websites from firms that are leaders in the carpentry industry, so it ensures to have everything you will need to impress your clients and start getting more business inquiries.`,
+      carouselImg : ['https://i.pinimg.com/564x/8d/5d/b0/8d5db028a0c8c34f8fd4f548f68c1a7e.jpg', 'https://i.pinimg.com/564x/cb/c2/80/cbc28000325c8f1b11d7a14453f15a87.jpg', 'https://i.pinimg.com/564x/32/33/22/3233221ac5ef9d5d54b299fd0c1af54e.jpg'],
+      type : 'event',
+      members : 16,
+      limit : 20,
+      locationSpecific : 'Bayanzurkh, Ulaanbaatar',
+      quote :  'We have a lot of work to do, and your generous donation helps us get that important work done.',
+      isForm : false,
+      duration : '4h',
+      goals :  [{title : 'Increase Income'}, {title : 'Make Chiaki happy'}, {title : 'Increase win rates by 69% in Gl1  '}, {title : 'Cook Chiaki Favorite Breakfast'}, {title : 'Meet Chiaki to eat Burger'}],
+      category : 'ulaanbaatar',
+      checked : false
+    },  
+
+    {
+      whoPosted : 'Chiaki',
+      title : 'Chiaki Koga',
+      description : `Chiaki Koga was born in United States on January 17, 2002. She's 21 years old. Her favorite food is Mukbang. She enjoys baking. She is from the Japan.`,
+      image : 'https://i.pinimg.com/736x/a3/c8/f9/a3c8f9075dff434b79288164cf6b1ef5.jpg',
+      id : '10',
+      aboutUs : `Take your carpentry business to the next level with Carpenters X 🪵🏡, the perfect carpenter Webflow Template for wood contractors and interior designers. Put your best foot forward with a professional and premium website design. Carpenters X has all the tools to get your business's website up and running quickly - a total of 15 pages, including a beautiful, modern, and clean homepage design.`,
+      whatWeWannaDo : `Unique & Premium Design: Carpenters X Constructor Webflow Template was designed to include all pages needed to have a world-class website for your carpentry. Its design was inspired on many websites from firms that are leaders in the carpentry industry, so it ensures to have everything you will need to impress your clients and start getting more business inquiries.`,
+      carouselImg : ['https://i.pinimg.com/564x/bb/26/02/bb26023d477f1c4dc275c1e65f308760.jpg', 'https://i.pinimg.com/474x/e2/0b/48/e20b48a5767192a9c6b1e46c945ac4ae.jpg', 'https://i.pinimg.com/474x/72/18/4d/72184d64f78341437259aa0469d75bde.jpg'],
+      type : 'payment',
+      category1 : 'Jewelry', 
+      quote : 'We have a lot of work to do, and your generous donation helps us get that important work done.',
+      unit_amount : 20,
+      category : 'uvs',
+      checked : false,
+      goals : [{title : 'Increase Income'}, {title : 'Make Chiaki happy'}, {title : 'Increase win rates by 69% in Gl1  '}, {title : 'Cook Chiaki Favorite Breakfast'}]
+    },
+
+    
+  ]
+
+  
+  
